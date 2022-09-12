@@ -42,6 +42,15 @@ public class IntroLab {
      */
 
     /**
+     * Return a greeting with my name using printLabMessage
+     *
+     * @return a string greeting from printLabMessage
+     */
+    public static String lenander() {
+        return printLabMessage("Hello", "Josh", true, "How are you doing?");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +68,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(lenander());
 
 
     }
